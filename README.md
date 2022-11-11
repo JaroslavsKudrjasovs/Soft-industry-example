@@ -2,7 +2,7 @@
 
 Clone git repository<br/>
 URL: https://github.com/JaroslavsKudrjasovs/Soft-industry-example <br/>
-Then in Intellij Idea create new project `using existing sources`<br/>
+Then in Intellij Idea create new project using option `Project from Existing Sources`<br/>
 And choose cloned directory
 
 or
