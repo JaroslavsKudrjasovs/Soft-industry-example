@@ -8,7 +8,7 @@ And choose cloned directory
 or
 
 File->New->Project from version control<br/>
-URL: https://github.com/JaroslavsKudrjasovs/Soft-industry-example lk<br/>
+URL: https://github.com/JaroslavsKudrjasovs/Soft-industry-example <br/>
 click Clone and wait until maven resolves dependencies
 
 ##How to run
