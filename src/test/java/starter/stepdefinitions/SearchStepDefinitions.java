@@ -28,16 +28,16 @@ public class SearchStepDefinitions {
         restAssuredThat(response ->
                 response.body("title", hasItem("AH Mango")));
     }
-    @Then("he sees the total number of results for mango")
-    public void heSeesMangoTotal() {
+    @Then("he sees the total number of results for apple")
+    public void heSeesAppleTotal() {
         restAssuredThat(response ->
-                response.body("title", iterableWithSize(46)));
+                response.body("title", iterableWithSize(34)));
     }
 
-    @Then("he sees the total number of results for coop mango")
-    public void heSeesCoopMangoTotal() {
+    @Then("he sees the total number of results for ah apple")
+    public void heSeesAhAppleTotal() {
         restAssuredThat(response ->
-                response.body("provider.findAll{it=='Coop'}", iterableWithSize(20)));
+                response.body("provider.findAll{it=='AH'}", iterableWithSize(24)));
     }
 
     @Then("he does not see the results")

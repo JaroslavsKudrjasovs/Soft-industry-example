@@ -13,9 +13,9 @@ Feature: Search for the product
     Then he does not see the results
 
   Scenario: Check size of supply chain of certain product
-    When he calls endpoint "https://waarkoop-server.herokuapp.com/api/v1/search/test/mango"
-    Then he sees the total number of results for mango
+    When he calls endpoint "https://waarkoop-server.herokuapp.com/api/v1/search/test/apple"
+    Then he sees the total number of results for apple
 
   Scenario: Check size of supply chain of product plus provider
-    When he calls endpoint "https://waarkoop-server.herokuapp.com/api/v1/search/test/mango"
-    Then he sees the total number of results for coop mango
+    When he calls endpoint "https://waarkoop-server.herokuapp.com/api/v1/search/test/apple"
+    Then he sees the total number of results for ah apple
