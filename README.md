@@ -1,4 +1,4 @@
-##How to install
+## How to install
 
 Clone git repository<br/>
 URL: https://github.com/JaroslavsKudrjasovs/Soft-industry-example <br/>
@@ -9,9 +9,9 @@ or
 
 File->New->Project from version control<br/>
 URL: https://github.com/JaroslavsKudrjasovs/Soft-industry-example <br/>
-click Clone and wait until maven resolves dependencies
+click `Clone` and wait until maven resolves dependencies
 
-##How to run
+## How to run
 
 In the terminal type
 ```text 
@@ -20,11 +20,11 @@ mvn clean verify
 
 Or right-click on the `TestRunner` class and choose `Run TestRunner`
 
-##How to write new tests
+## How to write new tests
 
 Please refer to https://cucumber.io/docs/cucumber/step-definitions/?lang=java
 <br/><br/><br/>
-###What was refactored and why
+### What was refactored and why
 
 * __line 29:__
 ```java
